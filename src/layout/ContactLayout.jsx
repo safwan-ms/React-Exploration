@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-
+import Contact from "../pages/Contact.jsx";
 const ContactLayout = () => {
   return (
     <div>
-      <ContactLayout />
+      <Contact />
       <Outlet />
     </div>
   );
