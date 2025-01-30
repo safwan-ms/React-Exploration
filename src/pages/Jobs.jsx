@@ -6,7 +6,11 @@ const Jobs = () => {
   return (
     <div className="flex ">
       {jobsData.map((job) => (
-        <Link key={job.id} className="bg-gray-300 m-3 p-2 rounded-xl">
+        <Link
+          to={job.id.toString()}
+          key={job.id}
+          className="bg-gray-300 m-3 p-2 rounded-xl"
+        >
           <h4 className="text-lg font-bold">{job.title}</h4>
           <p className="text-base ">{job.location}</p>
         </Link>
