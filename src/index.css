@@ -1,4 +1,5 @@
 @import "tailwindcss";
 a.active {
   color: red;
+  font-weight: bold;
 }
