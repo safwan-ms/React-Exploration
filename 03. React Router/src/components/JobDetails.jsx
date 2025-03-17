@@ -1,8 +1,8 @@
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const JobDetails = () => {
   const jobDetail = useLoaderData();
-  const { id } = useParams();
+  // const { id } = useParams();
   return (
     <div className="text-xl font-semibold max-w-[800px] ">
       <p>
@@ -22,11 +22,11 @@ const JobDetails = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo aut
         quos nesciunt
       </p>
-      <button className="bg-black text-white p-2 font-normal px-3 mt-4 mr-4 cursor-pointer">
+      <button className="p-2 px-3 mt-4 mr-4 font-normal text-white bg-black cursor-pointer">
         Apply Now
       </button>
       <Link to={"/jobs"}>
-        <button className="bg-gray-800 ack text-white p-2 font-normal cursor-pointer px-3 mt-4">
+        <button className="p-2 px-3 mt-4 font-normal text-white bg-gray-800 cursor-pointer ack">
           Go Back
         </button>
       </Link>
