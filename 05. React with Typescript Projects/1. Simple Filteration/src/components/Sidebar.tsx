@@ -25,8 +25,10 @@ const Sidebar = () => {
         </div>
 
         <div className="bottom">
-          <li>
+          <li className="mb-4">
             <IoMdSettings size={18} />
+          </li>
+          <li>
             <FaUser size={18} />
           </li>
         </div>
