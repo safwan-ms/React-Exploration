@@ -1,7 +1,7 @@
 import ComponentA from "./ComponentA";
 
 const App = () => {
-  const name = "HuXn";
+  const name = "Safwax";
   return <ComponentA name={name} />;
 };
 

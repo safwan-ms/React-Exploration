@@ -8,7 +8,7 @@ export const Data = createContext();
 export const Data1 = createContext();
 
 const App = () => {
-  const name = "HuXn";
+  const name = "Safwax";
   const Age = 18;
 
   return (

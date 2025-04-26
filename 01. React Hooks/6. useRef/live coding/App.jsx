@@ -6,13 +6,13 @@ function App() {
 
   const focusInput = () => {
     inputElement.current.focus();
-    inputElement.current.value = "HuXn";
+    inputElement.current.value = "Safwax";
   };
 
   return (
     <>
       <input type="text" ref={inputElement} />
-      <button onClick={() => focusInput()}>Focus & write HuXn</button>
+      <button onClick={() => focusInput()}>Focus & write Safwax</button>
     </>
   );
 }
