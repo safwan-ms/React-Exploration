@@ -4,7 +4,7 @@ import {
   mergeObjects,
   deepClone,
   deepEqual,
-} from "../src/objectUtils";
+} from "../src/4. objectUtils";
 
 describe("Object Utilities", () => {
   it("should return the correct property value for a given path", () => {
